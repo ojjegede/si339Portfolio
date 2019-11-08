@@ -1,0 +1,30 @@
+body{
+    font-family: "Belgrano", sans-serif;
+    color: black;
+    background-color: #00BFFF;
+}
+
+
+
+footer{
+	background-color: white;
+	text-align: center;
+	margin: 44px;
+	margin-top: 20px;
+	padding: 20px;
+
+}
+
+.footer-items a{
+	margin: 8px;
+	color: black;
+}
+
+.footer-items a:active, .footer-items a:hover{
+	color: blue;
+}
+
+footer div{
+	padding-top: 15px;
+	font-family: 'Josefin Sans';
+}
