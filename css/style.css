@@ -7,10 +7,11 @@ html{
 body{
     margin: 10px;
     background-attachment: fixed;
+    background-color: #6DB3F2;
     background-image: url(../images/background.jpg);     
     background-position: center;  
     background-repeat: no-repeat; 
-    background-size: cover;       
+    background-size: cover;
     font-family: "Belgrano", sans-serif;
     color: black;
 }
