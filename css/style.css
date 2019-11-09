@@ -13,19 +13,19 @@ body{
     background-position: center;  
     background-repeat: no-repeat; 
     background-size: cover;       
-    font-family: "Belgrano", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     color: black;
     background-color: #00BFFF;
 }
 header{
-  font-family: "Belgrano", sans-serif;;
+  font-family: "Times New Roman", Times, serif;
   background-color:grey;
   color: black;
   padding:10px;
 }
 h1{
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
 }
 h2{
@@ -34,7 +34,7 @@ h2{
   margin-top: 10px;
 }
 .skip a{
-  background: white;
+  background: grey;
   left: 0;
   padding: 6px;
   position: absolute;
