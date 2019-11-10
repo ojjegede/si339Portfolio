@@ -46,21 +46,15 @@ h2{
 *:focus{
   border: solid 2px #00BFFF;
 }
+.nav{
+overflow: hidden;
+}
 nav ul{
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: grey;
-}
-
-nav li{
-width: 60%;
-margin: 0 auto;
-padding-left: 10px;
-border: none;
-background: none;
-text-align: center;
 }
 
 nav a{
@@ -76,7 +70,7 @@ text-decoration: underline;
 background-color: #111;
 }
 .navbar{
-  text-align: left;
+  text-align: center;
   background-color: grey;
 
 }
