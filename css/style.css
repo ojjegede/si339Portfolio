@@ -17,12 +17,6 @@ body{
     color: black;
     background-color: #00BFFF;
 }
-header{
-  font-family: "Times New Roman", Times, serif;
-  background-color:grey;
-  color: black;
-  padding:10px;
-}
 h1{
   font-size: 2em;
   text-align: left;
@@ -33,7 +27,7 @@ h2{
   text-align: center;
   margin-top: 10px;
 }
-.skip a{
+.skip{
   background: grey;
   left: 0;
   padding: 6px;
@@ -45,47 +39,90 @@ h2{
   z-index: 1;
 }
 
-.skip a:focus{
+.skip:focus{
   top:0;
 }
 
 *:focus{
   border: solid 2px #00BFFF;
 }
-nav{
-  padding-top: 15px;
+nav ul{
+list-style-type: none;
 }
 
-nav li {
-  text-align: center;
-  border: 0.3px solid grey;
-  width: 100%;
-  padding: 18px ;
-  margin: 0;
-  background-color: #ffe6e6;
+nav li{
+display:inline;
+padding-right: 20px;
 }
 
-nav a, div a{
+nav a{
+color: black;
+font-weight: bold;
+text-decoration: none;
+}
+
+nav a:hover{
+text-decoration: underline;
+}
+
+.skip a{
+background: white;
+left: 0;
+padding: 6px;
+position: absolute;
+top:-40px;
+-webkit-transition: top 1s ease-out;
+transition: top 1s ease-out;
+
+z-index: 1;
+}
+
+.skip a:focus{
+top:0;
+}
+
+*:focus{
+border: solid 2px black;
+}
+
+
+footer{
+background-color: black;
+color: white;
+grid-column: 1 / -1;  /*Can you explain what this does?*/
+grid-row: 7 / -1;   /*Can you rewrite it?*/
+padding-top: 30px;
+text-align: center;
+}
+
+
+.container{
+
+/*Your code here  */
+display:grid;
+grid-template-rows: 30px auto auto auto auto auto 100px;
+grid-row-gap: 15px;
+grid-template-columns: 100px 500px 100px;
+
+width: 100vw;
+}
+
+.nav{
+ /*Your code here */
+grid-column: 1/-1;
+grid-row: 1 / span 1;
+/*Provided*/
+background-color: #ddd;
+padding: 20px 0;
+text-align: left;
+justify-self: center;
+}
+
+header{
+  font-family: "Times New Roman", Times, serif;
+  background-color:grey;
   color: black;
-  text-decoration: none;
-}
-
-nav a:active{
-  background: white;
-  padding: 10px 14px;
-}
-
-nav li:hover{
-  text-decoration: underline;
-}
-
-nav li .current{
-  text-decoration: underline;
-  padding: 10px 14px;
-}
-
-.navbar-toggle {
-  display: none;
+  padding:10px;
 }
 p{
   border: solid 10px black;
@@ -93,6 +130,7 @@ p{
   font-family: "Times New Roman", Times, serif;
   line-height: 1.1;
 }
+/*
 #about-grid{
   display:grid;
   grid-template-columns: 95vw;
