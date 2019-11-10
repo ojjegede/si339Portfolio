@@ -185,32 +185,9 @@ footer div{
 	padding-top: 15px;
 	font-family: 'Josefin Sans';
 }
-#about-grid{
-  display:grid;
-  grid-template-columns: 95vw;
-  grid-template-rows:auto;
-  margin-top: 10px;
-  justify-items: center;
-  align-self: center;
-  grid-row-gap: 15px;
-}
 .olajideprofile img{
   max-width:90.5vw;
   overflow: hidden;
-}
-#about-grid > h2{
-  text-align: center;
-  font-size: 2em;
-  grid-row: 2 / span 1;
-}
-#about-grid > p{
-  font-size: 1.3em;
-  grid-row: 3 /span 1;
-  text-align: center;
-  text-indent: 0;
-
-  align-self: start;
-
 }
 
 #gallery-flex{
@@ -222,6 +199,11 @@ footer div{
 #gallery-flex img{
   max-width: 91vw;
   border: solid 2px blue;
+}
+.column {
+  flex: 91%;
+  max-width: 91%;
+  padding: 0 4px;
 }
 
 .p1-img{
