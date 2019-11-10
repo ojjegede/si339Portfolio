@@ -1,33 +1,46 @@
-let eecs = document.getElementById("eecs")
-let heap = document.getElementById("heap")
-let salesman = document.getElementById("salesman")
-let party = document.getElementById("party")
-
-let click_notification = document.getElementById("click_notification")
-eecs.addEventListener("mouseover", function(){
-  click_notification.style.display = "block"
-});
-eecs.addEventListener("mouseout", function(){
-  click_notification.style.display = "none"
+let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+navBarToggle.addEventListener('click', function () {
+    mainNav.classList.toggle('active');
 });
 
-heap.addEventListener("mouseover", function(){
-  click_notification.style.display = "block"
-});
-heap.addEventListener("mouseout", function(){
-  click_notification.style.display = "none"
-});
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+	acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.display === "block") {
+			panel.style.display = "none";
+		} else {
+			panel.style.display = "block";
+		}
+	});
+}
 
-salesman.addEventListener("mouseover", function(){
-  click_notification.style.display = "block"
-});
-salesman.addEventListener("mouseout", function(){
-  click_notification.style.display = "none"
-});
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementsByTagName("header")[0];
+var sticky = navbar.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 
-party.addEventListener("mouseover", function(){
-  click_notification.style.display = "block"
-});
-party.addEventListener("mouseout", function(){
-  click_notification.style.display = "none"
-});
+window.onload = function() {
+  typeWriter();
+};
+
+var i = 0;
+var txt = 'a travel diary';
+var speed = 70;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("type").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
