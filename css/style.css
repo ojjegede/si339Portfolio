@@ -101,17 +101,6 @@ grid-template-columns: 100px 500px 100px;
 width: 100vw;
 }
 
-.nav{
- /*Your code here */
-grid-column: 1/-1;
-grid-row: 1 / span 1;
-/*Provided*/
-background-color: grey;
-padding: 20px 0;
-text-align: left;
-justify-self: left;
-}
-
 header{
   font-family: "Times New Roman", Times, serif;
   background-color:grey;
@@ -176,7 +165,7 @@ p{
 }
 
 .flip-card-back {
-	background-color: #ffe27c;
+	background-color: #ADD8E6;
 	color: black;
 	transform: rotateY(180deg);
 }
@@ -185,7 +174,7 @@ p{
 	padding: 40px 30px;
 }
 footer{
-	background-color: white;
+	background-color: grey;
 	text-align: center;
 	margin: 44px;
 	margin-top: 20px;
@@ -195,11 +184,11 @@ footer{
 
 .footer-items a{
 	margin: 8px;
-	color: black;
+	color: white;
 }
 
 .footer-items a:active, .footer-items a:hover{
-	color: purple;
+	color: #ADD8E6;
 }
 
 footer div{
