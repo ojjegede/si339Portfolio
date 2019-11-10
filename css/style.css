@@ -55,7 +55,12 @@ background-color: grey;
 }
 
 nav li{
-float: right;
+width: 60%;
+margin: 0 auto;
+padding-left: 10px;
+border: none;
+background: none;
+text-align: center;
 }
 
 nav a{
