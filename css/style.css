@@ -50,8 +50,9 @@ h2{
 overflow: hidden;
 }
 .nav a{
+float: right;
 display: block;
-color: white;
+color: magenta;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
