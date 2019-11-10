@@ -70,6 +70,11 @@ nav a:hover{
 text-decoration: underline;
 background-color: #111;
 }
+.navbar{
+  text-align: left;
+  background-color: grey;
+
+}
 
 .skip a{
 background: white;
