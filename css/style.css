@@ -80,26 +80,6 @@ background-color: #111;
   background-color: grey;
 
 }
-
-.skip a{
-background: white;
-left: 0;
-padding: 6px;
-position: absolute;
-top:-40px;
--webkit-transition: top 1s ease-out;
-transition: top 1s ease-out;
-
-z-index: 1;
-}
-
-.skip a:focus{
-top:0;
-}
-
-*:focus{
-border: solid 2px black;
-}
 /*.container{
 
 /*Your code here  
