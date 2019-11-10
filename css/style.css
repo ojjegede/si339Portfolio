@@ -185,13 +185,13 @@ footer div{
 	padding-top: 15px;
 	font-family: 'Josefin Sans';
 }
-/* @media screen and (min-width: 700px){
-  .stephen_senior img{
+ @media screen and (min-width: 700px){
+  .olajideprofile img{
     max-height: 60vh;
     overflow: hidden;
 
   }
-  /* #gallery-flex{
+   #gallery-flex{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -209,7 +209,7 @@ footer div{
   }
 
 
-}
+} /*
 @media screen and (min-width: 900px){
 
   #about-grid{
@@ -223,7 +223,7 @@ footer div{
     grid-row: 1/ span 2;
     justify-self: end;
   }
-  .stephen_senior img{
+  .olajideprofile img{
     max-height: 40vh;
     overflow: hidden;
 
@@ -333,7 +333,7 @@ footer div{
 }
 @media screen and (prefers-reduced-motion: reduce){
   html{
-      scroll-behavior: auto; /* Removes scroll animation */
+      scroll-behavior: auto; /* Removes scroll animation 
   }
 
   .skip a{
@@ -350,4 +350,4 @@ footer div{
   .skip a:focus{
     top:0;
   }
-}*/
+} */
