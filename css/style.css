@@ -60,7 +60,7 @@ font-size: 17px;
 
 .topnav a:hover{
 text-decoration: underline;
-background-color:lightblue;
+background-color:#215A69;
 }
 .topnavbar{
   text-align: center;
@@ -68,7 +68,7 @@ background-color:lightblue;
 
 }
 .topnav a.active {
-	background-color: lightblue;
+	background-color: #215A69;
 	color: white;
   }
 /*.container{
@@ -224,7 +224,7 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: grey;
+	background-color: #4A4A4A;
 	color: white;
 	text-align: center;
  }
